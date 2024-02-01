@@ -18,8 +18,14 @@ A continuacion, sigue estos pasos para poder utilizar el proyecto localmente.
 ```
   git clone  https://github.com/Santiago-Aquino/pokeapi
 ```
-    
-## Inicar el proyecto
+
+## Instalar dependencias
+
+```
+  npm install
+```
+
+## Iniciar el proyecto
 
 Parate en la carpeta del repositorio recientemente descargado y ejecuta:
 
@@ -27,7 +33,7 @@ Parate en la carpeta del repositorio recientemente descargado y ejecuta:
   ng serve
 ```
     
-## Demo
+## Deploy
 
 [PokeApi](https://pokeapi-zeta-black.vercel.app/)
 
