@@ -29,7 +29,7 @@ Parate en la carpeta del repositorio recientemente descargado y ejecuta:
     
 ## Demo
 
-https:goggle.com.ar
+[PokeApi](https://pokeapi-zeta-black.vercel.app/)
 
 
 ## Herramientas
@@ -38,6 +38,6 @@ https:goggle.com.ar
 - ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 - ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-```
-Tambien utilize "boxicons" para el uso de iconos
-```
+
+> Tambien utilize "boxicons" para el uso de iconos
+
