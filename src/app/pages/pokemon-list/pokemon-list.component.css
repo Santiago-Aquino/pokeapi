@@ -1,0 +1,97 @@
+* {
+  color: #ffde00;
+}
+
+/* estilos para la renderizacion de los pokemones */
+
+.pokemon-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style: none;
+  gap: 15px;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.pokemon-list a {
+  text-align: center;
+  text-decoration: none;
+  color: #ffde00;
+}
+
+/* estilos de la card */
+
+.card-body {
+  background-color: #cc0000;
+  transition: 0.2s ease;
+}
+
+.card {
+  background-color: #f1f1f1;
+}
+
+.card:hover{
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.30);
+  scale: 1.005;
+}
+
+/* para que el icono tenga el puntero */
+
+i {
+  cursor: pointer;
+}
+
+/* Cambio la tipografia del select */
+
+#orderBy {
+  font-family: sans-serif;
+  color: #000;
+}
+
+
+/*Media queries */
+
+@media screen and (max-width: 430px) {
+  .pokemon-list {
+    display: grid;
+    grid-template-columns: 1fr ;
+    list-style: none;
+    gap: 15px;
+    padding: 10px;
+    margin: 70px;
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 520px) {
+  .pokemon-list {
+    display: grid;
+    grid-template-columns: 1fr ;
+    list-style: none;
+    gap: 15px;
+    padding: 10px;
+    margin: 70px 70px 70px 130px;
+  }
+}
+
+
+@media screen and (min-width: 520px) and (max-width: 700px) {
+  .pokemon-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    list-style: none;
+    gap: 15px;
+    padding: 10px;
+    margin: 70px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .pokemon-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    list-style: none;
+    gap: 15px;
+    padding: 10px;
+    margin: 70px;
+  }
+}

@@ -1,0 +1,30 @@
+* {
+  color: #ffde00;
+}
+
+.pokemon-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style: none;
+  gap: 10px;
+  padding: 10px;
+}
+
+/* estilos de la card */
+
+.card {
+  background-color: #f1f1f1;
+  width: 18rem;
+}
+
+.card-body {
+  background-color: #cc0000;
+}
+
+/*media queries */
+
+@media screen and (max-width: 700px) {
+  .card {
+    width: 14rem;
+  }
+}

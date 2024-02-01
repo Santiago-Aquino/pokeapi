@@ -1,0 +1,23 @@
+@if (pokemonInfo) {
+  <!-- Creo la card del pokemon en particular tomando ese pokemon como input de otro componente -->
+  <div class="container-fluid d-flex justify-content-center align-items-center">
+    <div class="row">
+      <div class="col-12">
+        <div class="card m-4 rounded shadow-lg border border-0">
+          <img src="{{pokemonInfo.sprites.front_default}}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{pokemonInfo.id}} - {{pokemonInfo.name}}</h5>
+            <p class="card-text">altura: {{pokemonInfo.height}}</p>
+            <p class="card-text">peso: {{pokemonInfo.weight}}</p>
+            <p class="card-text">experiencia base: {{pokemonInfo.base_experience}}</p>
+            <p>Estadísticas:</p>
+            @for (stat of pokemonInfo.stats; track stat.base_stat) {
+              <p> - {{stat.stat.name}} = {{stat.base_stat}}</p>
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+}

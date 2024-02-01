@@ -1,0 +1,30 @@
+/* Importo la fuente pokemon y tambien los iconos */
+@import url("https://fonts.cdnfonts.com/css/pokemon-solid");
+@import 'boxicons/css/boxicons.min.css';
+
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* estilos generales del body */
+
+body {
+  font-family: "Pokemon Solid", sans-serif;
+  color: #ffde00;
+  text-shadow: 2px 3px #3b4cca;
+  letter-spacing: 2px;
+  -webkit-text-stroke: 1px #0007;
+  height: 100vh;
+  background: rgb(56, 182, 255);
+  background: radial-gradient(
+    circle,
+    rgba(56, 182, 255, 1) 0%,
+    rgba(0, 74, 173, 1) 100%,
+    rgba(0, 74, 173, 1) 100%
+  );
+}

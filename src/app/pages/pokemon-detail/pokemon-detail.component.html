@@ -1,0 +1,4 @@
+@if (pokemonDetail$ | async; as pokemon) {
+  <!-- utilizo el este compenent y le paso como inputo el pokemon que recibio -->
+  <app-pokemon-item [pokemonInfo]="pokemon"/>
+}
